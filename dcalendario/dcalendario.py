@@ -56,6 +56,3 @@ def criar_dcalendario(data_inicio, data_fim):
     )
     
     return d_calendario
-
-df = criar_dcalendario(data_inicio="2024-10-01", data_fim="2025-01-01")
-print(df)
