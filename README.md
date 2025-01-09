@@ -94,8 +94,8 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 3. Envie um Pull Request.
 
 ## 🔗 Links Úteis
-- Repositório no GitHub: dcalendario
-- Reporte de Issues: GitHub Issues
+- Repositório no GitHub: [dcalendario](https://github.com/CarlosEX/dCalendario) 
+- Reporte de Issues: [GitHub Issues](https://github.com/CarlosEX/dCalendario/issues)
 
 ## 📝 Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
