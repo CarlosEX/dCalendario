@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dcalendario",
-    version="0.1.1",
+    version="0.2.0",
     author="Carlos Antonio",
     author_email="carlos22martinssilva@gmail.com",
     description="Pacote para gerar uma tabela dCalendário com Python",

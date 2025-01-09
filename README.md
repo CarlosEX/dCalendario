@@ -16,14 +16,16 @@ A biblioteca gera um DataFrame pandas com uma tabela de calendário detalhada, b
 - Ano, mês, nome do mês, trimestre, semestre, semana, entre outras.
 - Identifica se a data pertence ao ano/mês atual.
 - Indica se a data é no passado (comparando com a maior data do intervalo).
+- Suporte a múltiplas localizações para nomes de meses e dias.
 
 ## 🧰 Funções Disponíveis
-> criar_dcalendario(start_date: str, end_date: str) -> pandas.DataFrame
+> criar_dcalendario(data_inicio: str, data_fim: str, locale: str = "en_US") -> pandas.DataFrame
 Gera a tabela de calendário.
 
 ### Parâmetros:
 start_date (str): Data de início do intervalo no formato YYYY-MM-DD.
 end_date (str): Data de término do intervalo no formato YYYY-MM-DD.
+locale (str): Localização para formatar os nomes dos meses e dias (ex.: pt_BR, en_US).
 ### Retorno:
 **pandas.DataFrame:** Uma tabela de calendário com as colunas detalhadas abaixo.
 
@@ -58,9 +60,7 @@ end_date (str): Data de término do intervalo no formato YYYY-MM-DD.
 from dcalendario import criar_dcalendario
 
 # Gerar calendário para 2024
-calendario = criar_dcalendario('2024-01-01', '2024-12-31')
-
-print(calendario.head())
+calendario = criar_dcalendario('2024-01-01', '2024-12-31', locale='pt_BR')
 ```
 
 ### Saída (exemplo):
@@ -94,7 +94,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 3. Envie um Pull Request.
 
 ## 🔗 Links Úteis
-- Repositório no GitHub: [dcalendario](https://github.com/CarlosEX/dCalendario) 
+- Repositório no GitHub: [dcalendario](https://github.com/CarlosEX/dCalendario) c
 - Reporte de Issues: [GitHub Issues](https://github.com/CarlosEX/dCalendario/issues)
 
 ## 📝 Licença
