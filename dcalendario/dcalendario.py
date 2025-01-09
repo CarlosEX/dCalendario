@@ -3,7 +3,7 @@ import numpy as np
 from babel.dates import format_datetime, get_month_names, get_day_names
 from babel import Locale
 
-def criar_dcalendario(data_inicio, data_fim, locale: str = "en_US"):
+def generate_calendar_df(data_inicio, data_fim, locale: str = "en_US"):
     """
     Gera uma tabela dCalendário entre as datas especificadas.
 
