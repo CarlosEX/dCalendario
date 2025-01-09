@@ -98,6 +98,6 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 - Reporte de Issues: [GitHub Issues](https://github.com/CarlosEX/dCalendario/issues)
 
 ## 📝 Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 
