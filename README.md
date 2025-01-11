@@ -19,7 +19,7 @@ A biblioteca gera um DataFrame pandas com uma tabela de calendário detalhada, b
 - Suporte a múltiplas localizações para nomes de meses e dias.
 
 ## 🧰 Funções Disponíveis
-> criar_dcalendario(data_inicio: str, data_fim: str, locale: str = "en_US") -> pandas.DataFrame
+> generate_calendar_df(data_inicio: str, data_fim: str, locale: str = "en_US") -> pandas.DataFrame
 Gera a tabela de calendário.
 
 ### Parâmetros:
@@ -57,10 +57,10 @@ locale (str): Localização para formatar os nomes dos meses e dias (ex.: pt_BR,
 ## 📚 Exemplos de Uso
 ### Importação e geração de calendário
 ```
-from dcalendario import criar_dcalendario
+from dcalendario import generate_calendar_df
 
 # Gerar calendário para 2024
-calendario = criar_dcalendario('2024-01-01', '2024-12-31', locale='pt_BR')
+calendario = generate_calendar_df('2024-01-01', '2024-12-31', locale='pt_BR')
 ```
 
 ### Saída (exemplo):
